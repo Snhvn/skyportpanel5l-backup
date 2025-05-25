@@ -26,7 +26,7 @@ apt update
 apt install -y nodejs git
 
 # Step 6: Clone the repository
-git clone https://github.com/achul123/skyportd
+git clone https://github.com/Mytai20100/skyportpanel5l-backup/skyportd.
 
 
 echo "Installization Done . Next Commands To Run"
