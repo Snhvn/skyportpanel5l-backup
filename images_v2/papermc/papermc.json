@@ -18,11 +18,7 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/Mytai20100/skyportpanel5l-backup/refs/heads/main/images_v2/spigotmc/server.properties",
-        "Path": "server.properties"
-      }
-      {
-        "Uri": "https://raw.githubusercontent.com/Mytai20100/skyportpanel5l-backup/refs/heads/main/images_v2/spigotmc/eula.txt"
+        "Uri": "https://raw.githubusercontent.com/Mytai20100/skyportpanel5l-backup/refs/heads/main/images_v2/spigotmc/eula.txt",
         "Path": "eula.txt"
       }
     ]
