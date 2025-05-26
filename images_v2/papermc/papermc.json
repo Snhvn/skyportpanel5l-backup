@@ -18,7 +18,7 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://github.com/Mytai20100/skyportpanel5l-backup/raw/refs/heads/main/images_v2/spigotmc/server.properties",
+        "Uri": "https://raw.githubusercontent.com/Mytai20100/skyportpanel5l-backup/refs/heads/main/images_v2/spigotmc/server.properties",
         "Path": "server.properties"
       }
     ]
