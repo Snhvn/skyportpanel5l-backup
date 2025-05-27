@@ -4,7 +4,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/skyportlabs/panel?style=for-the-badge)
 
 # Skyport Panel
-> [!WARNING] Tip: You should run two index.js files in panel5 and skyportd directories to panel working complete: 
+> [!WARNING]
+> Tip: You should run two index.js files in panel5 and skyportd directories to panel working complete: 
 >step1:Open two terninal
 >step2: first terninal `cd ~/skyportpanel5l-backup/panel5 || nodejs index.js`
 >step3: second terninal `cd ~/skyportpanel5l-backup/skyportd. || nodejs index.js`
