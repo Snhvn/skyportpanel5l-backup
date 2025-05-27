@@ -1,0 +1,45 @@
+{
+"Image": "quay.io/skyport/java:21",
+  "AltImages": [
+    "quay.io/skyport/java:21",
+    "docker.io/privt/java:18",
+    "docker.io/privt/java:17"
+  ],
+  "Cmd": "",
+  "Env": [
+    "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar"
+  ],
+  "StopCommand": "stop",
+  "features":["eula"],
+  "Scripts": {
+    "Install": [
+      {
+        "Uri": "https://api.papermc.io/v2/projects/folia/versions/{{Version}}/builds/{{Build}}/downloads/folia-{{Version}}-{{Build}}.jar",
+        "Path": "server.jar"
+      },
+       {
+        "Uri": "https://raw.github.com/Mytai20100/skyportpanel5l-backup/raw/refs/heads/main/images_v2/spigotmc/server.properties",
+        "Path": "server.properties"
+      }
+    ]
+  },
+  "Variables": {
+    "Version": {
+      "type": "text",
+      "default": "1.21.5",
+      "required": true
+    },
+    "Build": {
+      "type": "text",
+      "default": "1",
+      "required": true
+    }
+  },
+  "Name": "Minecraft Java: Folia",
+  "Description": "Folia is a new fork of Paper that adds regionized multithreading to the server. Access to Folia builds isn't currently available. To build Folia, you need to compile from source following Paper's standard compilation guide.",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Papermc",
+  "Meta": {
+    "Version": "Skyport Images v2"
+  }
+}
