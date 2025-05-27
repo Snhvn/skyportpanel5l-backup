@@ -4,7 +4,10 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/skyportlabs/panel?style=for-the-badge)
 
 # Skyport Panel
-![Waiting] Tip
+[!WAITING] Tip: You should run two index.js files in panel5 and skyportd directories to panel working complete !: 
+step1:Open two terninal
+step2: first terninal `cd ~/skyportpanel5l-backup/panel5
+                      nodejs index.js`
 ## Overview
 Skyport is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode. [Click here to join our Discord.](https://skyport.privt.xyz/)
 
