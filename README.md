@@ -10,15 +10,14 @@
 >step2: first terninal `cd ~/skyportpanel5l-backup/panel5 || nodejs index.js`
 >step3: second terninal `cd ~/skyportpanel5l-backup/skyportd. || nodejs index.js`
 > Ensure dependencies are installed `npm install` in both directories.
-> [!WAITING]
-> Wedsite: skyport.dev die
-> Repository Skyportlab deleted
 ## Overview
 Skyport is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode. [Click here to join our Discord.](https://skyport.privt.xyz/)
 
 ## Installation
 You can read our documentation at [skyport.dev](https://skyport.dev)
-
+> [!WAITING]
+> Wedsite: skyport.dev die
+> Repository Skyportlab deleted
 ## Configuration
 Edit the `config.json` file in the root directory to set up the application settings including the database connection and port.
 
