@@ -5,7 +5,7 @@
 
 # Skyport Panel
 > [!TIP]
-> Tip: You should run two index.js files in panel5 and skyportd directories to panel working complete: 
+> You should run two index.js files in panel5 and skyportd directories to panel working complete: 
 >step1:Open two terninal
 >step2: first terninal `cd ~/skyportpanel5l-backup/panel5 || nodejs index.js`
 >step3: second terninal `cd ~/skyportpanel5l-backup/skyportd. || nodejs index.js`
