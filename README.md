@@ -15,9 +15,8 @@ Skyport is an open source panel for managing and operating game servers and appl
 
 ## Installation
 You can read our documentation at [skyport.dev](https://skyport.dev)
-[!WAITING]
-> Wedsite: skyport.dev die
-> Repository Skyportlab deleted
+>Wedsite: skyport.dev die
+>Repository Skyportlab deleted
 ## Configuration
 Edit the `config.json` file in the root directory to set up the application settings including the database connection and port.
 
