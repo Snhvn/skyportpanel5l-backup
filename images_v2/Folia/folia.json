@@ -26,7 +26,7 @@
   "Variables": {
     "Version": {
       "type": "text",
-      "default": "1.21.5",
+      "default": "1.21",
       "required": true
     },
     "Build": {
@@ -38,7 +38,7 @@
   "Name": "Minecraft Java: Folia",
   "Description": "Folia is a new fork of Paper that adds regionized multithreading to the server. Access to Folia builds isn't currently available. To build Folia, you need to compile from source following Paper's standard compilation guide.",
   "Author": "info@skyport.dev",
-  "AuthorName": "Papermc",
+  "AuthorName": "Skyport Labs",
   "Meta": {
     "Version": "Skyport Images v2"
   }
