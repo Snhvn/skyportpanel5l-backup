@@ -8,12 +8,12 @@
   "Variables": {
     "RAM": {
       "type": "text",
-      "default": "2",
+      "default": "2 (G)",
       "required": true
     },
     "CORE": {
       "type": "text",
-      "default": "1",
+      "default": "1 (Core)",
       "required": true
     }
   },
