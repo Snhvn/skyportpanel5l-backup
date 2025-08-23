@@ -28,7 +28,7 @@ apt update
 apt install -y nodejs git
 
 # Step 6: Clone the repository
-git clone https://github.com/Mytai20100/skyportpanel5l-backup/panel5
+git clone https://github.com/Snhvn/skyportpanel5l-backup.git
 
 # Step 7: Navigate to the project directory
 cd panel5
