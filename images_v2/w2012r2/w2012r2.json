@@ -1,0 +1,27 @@
+{
+"Image": "quay.io/snipavn/win2012r2:latest",
+  "Cmd": "",
+  "Env": [
+    "START=qemu-system-x86_64 -net nic -net user,id=n0,hostfwd=tcp::3389-:3389 -m {{RAM}}G -smp cores={{CORE}} -cpu qemu64,+avx,+avx2,+sse,+sse2,+sse4.1,+sse4.2,hv-relaxed -boot order=d -drive file=2012r2.img,format=raw,if=virtio -device usb-ehci,id=usb,bus=pci.0,addr=0x4 -device usb-tablet -vnc :0 -vga virtio -device virtio-gpu"
+  ],
+  "StopCommand": "pkill qemu",
+  "Variables": {
+    "RAM": {
+      "type": "text",
+      "default": "2",
+      "required": true
+    },
+    "CORE": {
+      "type": "text",
+      "default": "1",
+      "required": true
+    }
+  },
+  "Name": "Windows 2012r2 Datnguyentv",
+  "Description": "File Img W2012 của đạt nguyễn vn",
+  "Author": "SNIPA VN | https://youtube.com@snipavn205",
+  "AuthorName": "SNIPA VN",
+  "Meta": {
+    "Version": "Skyport Images v1000 tu tiên"
+  }
+}
